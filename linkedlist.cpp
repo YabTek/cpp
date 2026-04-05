@@ -31,7 +31,4 @@ int main(){
     head2->next = new Node(5);
     head2->next->next = new Node(4);
 
-
-
-
 };
