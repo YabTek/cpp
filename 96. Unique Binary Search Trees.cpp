@@ -3,6 +3,7 @@
 class Solution {
 public:
     int numTrees(int n) {
+        //initialize dp array with 0s
         vector<int> dp(n+1, 0);
         dp[0] = 1;
         dp[1] = 1;
