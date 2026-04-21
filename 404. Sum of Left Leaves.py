@@ -24,5 +24,26 @@ class Solution:
         return ans
 
 
+        # def traverse(node, flag):
+        #     if not node:
+        #         return 0
+        #     if not node.left and not node.right:
+        #         if flag == "left":
+        #             return node.val
+        #         else:
+        #             return 0
+
+        #     return traverse(node.left, "left") + traverse(node.right, "right")
+
+
+        # ans = 0
+        # return traverse(root, None)
+
+         
+
+
+
+
+
 
         
