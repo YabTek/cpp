@@ -42,7 +42,7 @@ func main(){
 	bubbleSort(slice)
 
 	for _, num := range slice{
-		fmt.Printf("%d", num)
+		fmt.Printf("%d ", num)
 	}
 
 }
